@@ -1,2 +1,2 @@
-# Infracao Velocidade
+# Infração Velocidade
  Primeiro repositório aprendendo
