@@ -1,0 +1,12 @@
+placa = str(input('Digite a placa do veículo: ')).upper()
+velo = int(input('Digite a velocidade do veículo: '))
+if velo <= 60:
+    print('\033[1;42m\033[1;30mDentro do limite estabelecido.\033[m')
+elif velo <= 72:
+     print('\033[1;30m\033[1;43mInfração média.\033[m')
+elif velo <= 90:
+    print('\033[1;47m\033[1;30mInfração grave.\033[m')
+else:
+    print('\033[1;41m\033[1;30mInfração gravíssima.\033[m')
+print(f'Placa: \033[1;34m{placa}\033[m')
+print(f'Velocidade: \033[1;34m{velo}km/h\033[m')
